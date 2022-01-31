@@ -1,0 +1,51 @@
+body {
+    background-image: url("starry.gif");
+    color: darkred;
+}
+
+#topheader {
+    background-image: repeating-linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red, violet);
+    text-align: center;
+    background-size: 800% 800%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    animation: rainbow 8s ease infinite;
+}
+@keyframes rainbow{
+	0% {background-position: 0;}
+	100% {background-position: 800% 0;}
+}
+
+#header2{
+    text-align: center;
+    font-size: 20px;
+}
+
+.window{
+    font-size: large;
+    display: flex;
+    padding: 50px 0 25px;
+    border: 3px solid #1f12da;
+    
+}
+
+#emaillink {
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom: 30px;
+    height:30px;
+    width:100%;
+}
+
+.ads {
+    text-align: center;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+   
+}
